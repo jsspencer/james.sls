@@ -31,6 +31,7 @@ install basic packages:
       - python
       - python2
       - rxvt-unicode-terminfo
+      - stow
       - sudo
       - task
       - tig
