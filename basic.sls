@@ -33,6 +33,7 @@ install basic packages:
       - rxvt-unicode-terminfo
       - sudo
       - task
+      - tig
       - tmux
       - tree
       - vim
