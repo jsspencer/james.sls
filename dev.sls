@@ -2,6 +2,11 @@
 install dev packages:
   pkg.installed:
     - pkgs:
+      - cgdb
+      - gdb
+      - lua52
+      - lua
+      - luajit
       - openmpi
       - perf
 
