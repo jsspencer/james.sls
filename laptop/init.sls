@@ -9,7 +9,7 @@ install laptop packages:
       - udisks2
 
 config udevil:
-  pkg.installed: 
+  pkg.installed:
     - name: udevil
   file.managed:
     - name: /usr/bin/udevil
@@ -52,8 +52,11 @@ install gui packages:
       - vlc
 
 {% for pkg in [
-    'xtitle', 
+    'cower',
+    'lemonbar',
+    'mutt-kz',
     'sutils-git',
+    'xtitle',
 ] %}
 download AUR packages {{ pkg }}:
   cmd.run:

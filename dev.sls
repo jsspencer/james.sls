@@ -3,6 +3,7 @@ install dev packages:
   pkg.installed:
     - pkgs:
       - cgdb
+      - ctags
       - gdb
       - lua52
       - lua
