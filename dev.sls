@@ -2,6 +2,7 @@
 install dev packages:
   pkg.installed:
     - pkgs:
+      - abs
       - cgdb
       - ctags
       - gdb

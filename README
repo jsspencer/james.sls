@@ -24,3 +24,7 @@ laptop.sls
     Packages and settings specific to laptops/interactive machines.
 server.sls
     Packages and settings specific to server (currently just a raspberry pi).
+
+# todo
+       - zsh config
+       - root setup
