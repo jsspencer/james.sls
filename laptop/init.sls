@@ -5,6 +5,7 @@ install laptop packages:
       - dialog
       - iw
       - pass
+      - wpa_actiond
       - wpa_supplicant
       - udisks2
 
