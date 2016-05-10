@@ -4,18 +4,22 @@ install dev packages:
     - pkgs:
       - abs
       - cgdb
+      - cloc
       - ctags
       - gdb
-      - lua52
       - lua
+      - lua52
       - luajit
       - openmpi
       - perf
 
-install python packages:
+{% for python in ['python', 'python2'] %}
+install {{ python }} packages:
   pkg.installed:
     - pkgs:
-      - python-matplotlib
-      - python-numpy
-      - python-pandas
-      - python-scipy
+      - {{ python }}-matplotlib
+      - {{ python }}-numpy
+      - {{ python }}-pandas
+      - {{ python }}-scipy
+      - {{ python }}-sphinx
+{% endfor %}
