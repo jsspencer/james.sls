@@ -12,6 +12,7 @@ remove unwanted base packages:
 install basic packages:
   pkg.installed:
     - pkgs:
+      - aria2
       - bash-completion
       - bind-tools
       - binutils
