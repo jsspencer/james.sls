@@ -40,14 +40,21 @@ install X, bspwm and related packages:
   pkg.installed:
     - pkgs:
       - bspwm
-      - sxhkd
+      - dmenu
+      - rxvt-unicode
       - sddm
+      - sxhkd
       - terminus-font
+      - xdotool
       - xorg-xinit
+      - xorg-server
+      - xorg-xsetroot
+      - xf86-input-synaptics
 
 install gui packages:
   pkg.installed:
     - pkgs:
+      - feh
       - mupdf
       - firefox
       - vlc
