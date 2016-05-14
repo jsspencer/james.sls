@@ -3,6 +3,7 @@ install laptop packages:
     - pkgs:
       - acpi
       - dialog
+      - notmuch
       - iw
       - pass
       - wpa_actiond
