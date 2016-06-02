@@ -22,4 +22,12 @@ install {{ python }} packages:
       - {{ python }}-pandas
       - {{ python }}-scipy
       - {{ python }}-sphinx
+      - {{ python }}-virtualenv
 {% endfor %}
+
+install qt:
+  pkg.installed:
+    - pkgs:
+        - qt4
+        - qt5-base
+        - qt5-svg

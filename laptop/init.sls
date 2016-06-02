@@ -45,6 +45,7 @@ install X, bspwm and related packages:
       - rxvt-unicode
       - sddm
       - sxhkd
+      - tabbed
       - terminus-font
       - xdotool
       - xorg-xinit
@@ -58,6 +59,7 @@ install gui packages:
       - feh
       - mupdf
       - firefox
+      - qutebrowser
       - vlc
 
 {% for pkg in [

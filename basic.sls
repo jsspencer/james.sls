@@ -29,6 +29,7 @@ install basic packages:
       - openssh
       - pkgbuild-introspection
       - pkgfile
+      - pkgstats
       - python
       - python2
       - rxvt-unicode-terminfo
