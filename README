@@ -25,6 +25,5 @@ laptop.sls
 server.sls
     Packages and settings specific to server (currently just a raspberry pi).
 
-# todo
-       - zsh config
-       - root setup
+* todo
+   + root setup (basic vim, tmux, zsh)
