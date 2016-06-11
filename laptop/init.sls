@@ -56,6 +56,7 @@ install X, bspwm and related packages:
 install gui packages:
   pkg.installed:
     - pkgs:
+      - archlinux-wallpaper
       - feh
       - mupdf
       - firefox
