@@ -69,6 +69,7 @@ install gui packages:
     'mutt-kz',
     'sutils-git',
     'xtitle',
+    'datamash',
 ] %}
 download AUR packages {{ pkg }}:
   cmd.run:
