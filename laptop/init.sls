@@ -42,6 +42,7 @@ install X, bspwm and related packages:
     - pkgs:
       - bspwm
       - dmenu
+      - gv
       - rxvt-unicode
       - sddm
       - sxhkd
@@ -70,6 +71,7 @@ install gui packages:
     'sutils-git',
     'xtitle',
     'datamash',
+    'openvpn-update-resolv-conf',
 ] %}
 download AUR packages {{ pkg }}:
   cmd.run:
