@@ -76,7 +76,7 @@ install gui packages:
 download AUR packages {{ pkg }}:
   cmd.run:
     - name: cower -d {{ pkg }}
-    - user: james
+    - runas: james
     - creates: /home/james/build/{{ pkg }}
     - require:
       - file: cower config
