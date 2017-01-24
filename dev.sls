@@ -18,8 +18,10 @@ install {{ python }} packages:
   pkg.installed:
     - pkgs:
       - {{ python }}-matplotlib
+      - {{ python }}-nose
       - {{ python }}-numpy
       - {{ python }}-pandas
+      - {{ python }}-pip
       - {{ python }}-scipy
       - {{ python }}-sphinx
       - {{ python }}-virtualenv
