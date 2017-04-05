@@ -2,7 +2,7 @@ base:
   '*':
     - basic
     - cower
-  'mini-pintsize':
+  'mini-pintsize* or pintsize*':
     - laptop
     - dev
   'alarmpi':

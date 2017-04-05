@@ -8,7 +8,7 @@ Setup
 
 * install salt-zmq (or salt-raet, if you wish)
 * install cower for downloading AUR packages
-* set ``file_client: local`` in ``/etc/salt/minion`` and, if not cloned to ``/src/salt``, set ``file_roots`` to the appropriate directory.
+* set ``file_client: local`` in ``/etc/salt/minion`` and, if not cloned to ``/srv/salt``, set ``file_roots`` to the appropriate directory.
 * run salt-call --local state.highstate as root/using sudo.
 
 Layout

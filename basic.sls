@@ -39,10 +39,12 @@ install basic packages:
       - tig
       - tmux
       - tree
+      - unzip
       - vim
       - w3m
       - wget
       - yajl
+      - zip
       - zsh
 
 vi symlink:

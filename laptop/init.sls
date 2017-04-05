@@ -6,6 +6,8 @@ install laptop packages:
       - notmuch
       - iw
       - pass
+      - powertop
+      - tlp
       - wpa_actiond
       - wpa_supplicant
       - udisks2
@@ -67,7 +69,7 @@ install gui packages:
 {% for pkg in [
     'cower',
     'lemonbar',
-    'mutt-kz',
+    'neomutt',
     'sutils-git',
     'xtitle',
     'datamash',
