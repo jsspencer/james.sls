@@ -73,7 +73,7 @@ install gui packages:
     'sutils-git',
     'xtitle',
     'datamash',
-    'openvpn-update-resolv-conf',
+    'openvpn-update-systemd-resolved',
 ] %}
 download AUR packages {{ pkg }}:
   cmd.run:

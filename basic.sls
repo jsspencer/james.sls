@@ -24,7 +24,6 @@ install basic packages:
       - git
       - htop
       - make
-      - openresolv
       - openvpn
       - openssh
       - pkgbuild-introspection
