@@ -51,6 +51,7 @@ install X, bspwm and related packages:
       - tabbed
       - terminus-font
       - xdotool
+      - xorg-xev
       - xorg-xinit
       - xorg-server
       - xorg-xsetroot
@@ -63,6 +64,7 @@ install gui packages:
       - feh
       - mupdf
       - firefox
+      - chromium
       - qutebrowser
       - vlc
 

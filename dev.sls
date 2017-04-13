@@ -25,6 +25,7 @@ install {{ python }} packages:
       - {{ python }}-scipy
       - {{ python }}-sphinx
       - {{ python }}-virtualenv
+      - i{{ python }}
 {% endfor %}
 
 install qt:
