@@ -12,6 +12,7 @@ install dev packages:
       - luajit
       - openmpi
       - perf
+      - valgrind
 
 {% for python in ['python', 'python2'] %}
 install {{ python }} packages:
