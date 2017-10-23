@@ -2,7 +2,7 @@
 install dev packages:
   pkg.installed:
     - pkgs:
-      - abs
+      - asp
       - cgdb
       - cloc
       - ctags
