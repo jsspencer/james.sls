@@ -3,6 +3,8 @@ user accounts:
     - name: james
     - shell: /bin/zsh
     - home: /home/james
+    - groups:
+        - wheel
 
 remove unwanted base packages:
   pkg.removed:
