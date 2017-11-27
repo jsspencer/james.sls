@@ -3,10 +3,12 @@ install laptop packages:
     - pkgs:
       - acpi
       - dialog
+      - neomutt
       - notmuch
       - iw
       - pass
       - powertop
+      - pulseaudio
       - tlp
       - wpa_actiond
       - wpa_supplicant
@@ -70,11 +72,10 @@ install gui packages:
 
 {% for pkg in [
     'cower',
-    'lemonbar',
-    'neomutt',
+    'bar-aint-recursive-git',
+    'pulsemixer',
     'sutils-git',
     'xtitle',
-    'datamash',
     'openvpn-update-systemd-resolved',
 ] %}
 download AUR packages {{ pkg }}:

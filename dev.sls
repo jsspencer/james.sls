@@ -6,7 +6,9 @@ install dev packages:
       - cgdb
       - cloc
       - ctags
+      - datamash
       - gdb
+      - hdf5-openmpi
       - lua
       - lua52
       - luajit
