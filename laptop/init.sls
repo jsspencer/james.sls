@@ -47,14 +47,17 @@ install X, bspwm and related packages:
       - bspwm
       - dmenu
       - gv
+      - neofetch
       - rxvt-unicode
       - sddm
+      - scrot
       - sxhkd
       - tabbed
       - terminus-font
       - xdotool
       - xorg-xev
       - xorg-xinit
+      - xorg-xprop
       - xorg-server
       - xorg-xsetroot
       - xf86-input-synaptics
