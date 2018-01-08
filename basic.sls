@@ -28,7 +28,6 @@ install basic packages:
       - make
       - openvpn
       - openssh
-      - pkgbuild-introspection
       - pkgfile
       - pkgstats
       - python
