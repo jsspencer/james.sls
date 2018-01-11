@@ -76,10 +76,11 @@ install gui packages:
 {% for pkg in [
     'cower',
     'bar-aint-recursive-git',
+    'lcov',
+    'openvpn-update-systemd-resolved',
     'pulsemixer',
     'sutils-git',
     'xtitle',
-    'openvpn-update-systemd-resolved',
 ] %}
 download AUR packages {{ pkg }}:
   cmd.run:
