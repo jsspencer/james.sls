@@ -26,12 +26,17 @@ install basic packages:
       - git
       - htop
       - make
+      - ntp
       - openvpn
       - openssh
       - pkgfile
       - pkgstats
       - python
       - python2
+      - rlwrap
+      - rsync
+      - rust
+      - rust-docs
       - rxvt-unicode-terminfo
       - stow
       - sudo

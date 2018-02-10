@@ -8,6 +8,7 @@ install dev packages:
       - ctags
       - datamash
       - gdb
+      - gnuplot
       - hdf5-openmpi
       - lua
       - lua52

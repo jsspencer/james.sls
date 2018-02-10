@@ -44,7 +44,9 @@ install mail packages:
 install X, bspwm and related packages:
   pkg.installed:
     - pkgs:
+      - arandr
       - bspwm
+      - cups
       - dmenu
       - gv
       - neofetch
@@ -60,6 +62,7 @@ install X, bspwm and related packages:
       - xorg-xprop
       - xorg-server
       - xorg-xsetroot
+      - xrandr
       - xf86-input-synaptics
 
 install gui packages:
